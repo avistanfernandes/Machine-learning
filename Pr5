@@ -1,6 +1,7 @@
 import numpy as np
 from collections import Counter
-[ ]: np.random.seed(42)
+
+np.random.seed(42)
 x_values = np.random.rand(100)
 x_train =x_values[:50]
 x_test = x_values[50:]
