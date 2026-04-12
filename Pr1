@@ -40,3 +40,5 @@ outlier = housing_df[(housing_df[feature] < lower_bound) |␣
 outlier_summary[feature] = len(outlier)
 print(f"{feature}: {len(outlier)} outliers")
 
+print("\nDataset Summary:")
+print(housing_df.describe())
