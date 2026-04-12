@@ -13,3 +13,6 @@ print(data)
 print(labels)
 print(label_names)
 
+iris_df = pd.DataFrame(data, columns=iris.feature_names)
+print(iris_df)
+
