@@ -18,8 +18,8 @@ y_pred = clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model Accuracy: {accuracy * 100:.2f}%")
 new_sample = np.array([X_test[0]])
-
 prediction = clf.predict(new_sample)
+
 prediction_class = "Benign" if prediction == 1 else "Malignant"
 print(f"Predicted Class for the new sample: {prediction_class}")
 
